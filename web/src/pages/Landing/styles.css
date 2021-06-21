@@ -1,0 +1,145 @@
+#landing{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+#page-landing {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    background: var(--color-primary);
+    background-image: url('../../assets/images/BG.svg');
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container{
+    text-align: center;
+    margin-bottom: 3.2rem;
+    
+    
+}
+.logo-container img {
+    height: 10rem;
+}
+
+
+.logo-container h2{
+    margin: auto;
+    text-align: left;
+    max-width: 32rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+}
+#page-login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-login{
+    color: var(--color-text-title);
+    text-align: left;
+    width: 80vw;
+    max-width: 450px;
+
+}
+.main-login h1{
+    font: 700 4rem Poppins;
+}
+.form-group{
+   display: flex;
+   flex-direction: column; 
+   color: var(--color-text-complement);
+   
+}
+.login{
+    height: 6rem;
+    width: 98%; 
+    padding-left:30px;
+    border: 1px solid var(--color-line-in-white);
+    background-color: var(--color-box-base);
+    margin: 0 auto;
+    color: var(--color-text-complement);
+}
+.email{   
+    margin-top: 40px;
+    border-radius: 1rem 1rem 0 0;
+}
+.senha{
+    border-radius: 0 0 1rem 1rem ;
+    margin-bottom: 20px;
+}
+.chekbox {
+    cursor: pointer;
+    position: relative;
+    margin-right: 1.5rem;
+}
+.chekbox:checked{
+    background-color: var(--color-secundary);
+}
+.lembre{
+    display: flex;
+    justify-content: space-between;   
+}
+.renew-passoword{
+    text-decoration: none;
+    color: var(--color-text-complement);
+}
+input::placeholder{
+    color: var(--color-text-complement);
+}
+.Entrar{
+    cursor: pointer;
+    width: 95%;
+    margin: 3rem auto;   
+    height: 5rem;
+    background-color: var(--button-login);
+    border-radius: 0.8rem;
+    border: 0 solid var(--color-line-in-white);
+    font: 700 Archivo ;
+    color: var(--color-text-complement);
+    transition: 400ms;
+}
+.Entrar:hover{
+    background: var(--color-secundary);
+    color: white;
+
+}
+.footer-login{
+
+    display: flex;
+    color: var(--color-text-complement);
+    justify-content: space-between;
+    font-size: 10px;
+}
+.cadastrar{
+    color: var(--color-text-title);
+    font-weight: 500;
+    font-size: 12px;
+}
+@media(min-width:1100px){
+    #landing{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #page-landing{
+       
+    }
+}
