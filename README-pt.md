@@ -1,10 +1,10 @@
-<p align="center">
+<<p align="center">
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
 
 <p align="center">	
-   <a href="https://www.linkedin.com/in/rafael-goulartb/">
-      <img alt="Rafael Goulart" src="https://img.shields.io/badge/-RafaelGoulartB-8257E5?style=flat&logo=Linkedin&logoColor=white" />
+   <a href="https://www.linkedin.com/in/luiz-lima-cezario/">
+      <img alt="Luiz Cezario" src="https://img.shields.io/badge/-luizCezario-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/RafaelGoulartB/proffy?color=774DD6">
 
@@ -15,7 +15,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RafaelGoulartB/proffy?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  <a href="https://github.com/RafaelGoulartB/proffy/stargazers">
+  <a href="https://github.com/luizlcezario/Proffy/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/RafaelGoulartB/proffy?color=8257E5&logo=github">
   </a>
 </p>
@@ -30,16 +30,13 @@
 
 <div align="center">
   <sub>The NLW #2 project. Built with ❤︎ by
-    <a href="https://github.com/RafaelGoulartB">Rafael Goulart</a> and
-    <a href="https://github.com/RafaelGoulartB/Proffy/graphs/contributors">
-      contributors
+        <a href="https://github.com/luizlcezario">Luiz Cezario</a> 
     </a>
   </sub>
 </div>
 
 # :pushpin: Tabela de Conteúdo
 
-* [Site de Demostração](#eyes-site-de-demostração) 
 * [Tecnologias](#computer-tecnologias)
 * [Funcionalidades](#rocket-funcionalidades)
 * [Como rodar](#construction_worker-como-rodar)
@@ -71,12 +68,6 @@
    <img src="./.github/mobile-favoritos.png" width="180">
 </div>
 
-# :eyes: Site de Demostração
-Você pode acessar o site em:     
-👉  demo: https://proffy-rafa.netlify.app/ 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://app.netlify.com/sites/proffy-rafa/deploys)     
-
 # :computer: Tecnologias
 Esse projeto foi feito utilizando as seguintes tecnologias:
 
@@ -93,7 +84,7 @@ Esse projeto foi feito utilizando as seguintes tecnologias:
 # :construction_worker: Como rodar
 ```bash
 # Clone o Repositoria
-$ git clone https://github.com/RafaelGoulartB/Proffy.git
+$ git clone https://github.com/luizlcezario/Proffy.git
 ```
 ### 📦 Rode a API
 
@@ -141,7 +132,7 @@ Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/deta
 
 # :bug: Problemas
 
-Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Proffy](https://github.com/RafaelGoulartB/Proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
+Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Proffy](https://github.com/luizlcezario/Proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
 
 # :tada: Contribuindo
 
@@ -149,10 +140,11 @@ Confira a página de [contribuição](./CONTRIBUTING.md) para ver como começar 
 
 # :closed_book: Licencia
 
-Lançado em 2020 :closed_book: Licencia
+Lançado em 2021 :closed_book: Licencia
 
-Made with love by [Rafael Goulart](https://github.com/RafaelGoulartB) 🚀.
+Made with love by [Luiz Cezario](https://github.com/luizlcezario) 🚀.
 Esse projeto esta sobre [MIT license](./LICENSE).
 
 
 Dê uma ⭐️ se esse projeto te ajudou!
+R
