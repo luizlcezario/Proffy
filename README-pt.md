@@ -20,12 +20,12 @@
   </a>
 </p>
 
-> :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+> :rocket: Projeto feito para conectar professores e estudantes, feito na Next Level Week #2 @Rocketseat
 
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="README.md">Inglês</a>
     ·
-    <a href="README-pt.md">Portuguese</a>
+    <a href="README-pt.md">Português</a>
  </p>
 
 <div align="center">
@@ -37,17 +37,17 @@
   </sub>
 </div>
 
-# :pushpin: Table of Contents
+# :pushpin: Tabela de Conteúdo
 
-* [Demo Website](#eyes-demo-website)   
-* [Technologies](#computer-technologies)
-* [Features](#rocket-features)
-* [How to Run](#construction_worker-how-to-run)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [Contributing](#tada-contributing)
-* [License](#closed_book-license)
+* [Site de Demostração](#eyes-site-de-demostração) 
+* [Tecnologias](#computer-tecnologias)
+* [Funcionalidades](#rocket-funcionalidades)
+* [Como rodar](#construction_worker-como-rodar)
+* [Encontrou um bug? Ou está faltando uma feature?](#bug-problemas)
+* [Contribuindo](#tada-contribuindo)
+* [Licencia](#closed_book-licencia)
 
-<h2 align="left"> 📥 Layout available for download at: </h2>
+## 📥 Layout disponivel para download em:  
 <p align="center">
     <a title="Download .fig Web" href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/17c8198d-4e67-4838-b18b-440cd2fdf37e/Proffy_Web.fig?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200804T053236Z&X-Amz-Expires=86400&X-Amz-Signature=ba4ac9b73aca8c78671e5a872403d63b58e4ad69e3fd2d50b0ca57797173906d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Proffy_Web.fig%22">
         <img alt="Direct Download" src="https://img.shields.io/badge/Download Web-black?style=flat-square&logo=figma&logoColor=red" width="200px" />
@@ -58,110 +58,101 @@
 </p>
 
 ### Web Screenshot
-<div>
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="./.github/web-landing.png" width="400px">
    <img src="./.github/web-list.png" width="400px">
 </div>
 
 ### Mobile Screenshot
-<div>
+<div style="display: flex; flex-direction: 'row';">
    <img src="./.github/mobile-splash.png" width="180">
    <img src="./.github/mobile-onboarding.png" width="180">
    <img src="./.github/mobile-home.png" width="180">
    <img src="./.github/mobile-favoritos.png" width="180">
 </div>
 
-# :eyes: Demo Website
-You can acess the website at:     
+# :eyes: Site de Demostração
+Você pode acessar o site em:     
 👉  demo: https://proffy-rafa.netlify.app/ 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://app.netlify.com/sites/proffy-rafa/deploys)      
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://app.netlify.com/sites/proffy-rafa/deploys)     
 
-
-# :computer: Technologies
-This project was made using the follow technologies:
+# :computer: Tecnologias
+Esse projeto foi feito utilizando as seguintes tecnologias:
 
 * [Typescript](https://www.typescriptlang.org/)      
 * [React](https://reactjs.org/)      
 * [Expo](https://expo.io/)       
-* [Express](https://expressjs.com/)      
+* [Express](https://expressjs.com/) 
 
-# :rocket: Features
+# :rocket: Funcionalidades
 
-* Website to sign up teachers and students.
-* App to connect teachers and students.
+* Site para cadastro de estudante e professores.
+* App para conectar estudantes e professores.
 
-# :construction_worker: How to run
+# :construction_worker: Como rodar
 ```bash
-# Clone Repository
+# Clone o Repositoria
 $ git clone https://github.com/RafaelGoulartB/Proffy.git
 ```
-### 📦 Run API
+### 📦 Rode a API
 
 ```bash
-# Go to server folder
+# Vá para a pasta do servidor
 $ cd Proffy/server
 
-# Install Dependencies
+# Instale as depedencias
 $ yarn install
 
-# Run Aplication
+# Rode a aplicação
 $ yarn start
 ```
-Access API at http://localhost:3333/
+Acesse a API: http://localhost:3333/
 
-### 💻 Run Web Project
+### 💻 Rode o Project Web
 
 ```bash
-# Go to web folder
+# Vá para a pasta web
 $ cd Proffy/web
 
-# Install Dependencies
+# Instale as depedencias
 $ yarn install
 
-# Run Aplication
+# Rode a aplicação
 $ yarn start
 ```
-Go to http://localhost:3000/ to see the result.
+Acesse: http://localhost:3000/ para ver o resultado.
 
 ### 📱 Run Mobile Project
-To run the mobile project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
-<br />
-After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
+Para rodar o projeto mobile você precisa de um celular com o [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instlado ou um emulador android/ios.
 
 ```bash
-# Go to mobile folder
+# Vá para a pasta mobile
 $ cd Proffy/mobile
 
-# Install Dependencies
+# Instale as depedencias
 $ yarn install
 
-# Run Aplication
+# Rode a aplicação
 $ yarn start
 ```
-Aferter read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
+Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) ou rode em um emulador.
 
 
-# :bug: Issues
+# :bug: Problemas
 
-Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/RafaelGoulartB/Proffy/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Proffy](https://github.com/RafaelGoulartB/Proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
 
-# :tada: Contributing
-First of all, thank you for being interested in helping out, your time is always appreciated in every way. :100:
+# :tada: Contribuindo
 
-Here's some tips:
+Confira a página de [contribuição](./CONTRIBUTING.md) para ver como começar uma discução e começar a contribuir.
 
-* Check the [issues page](https://github.com/RafaelGoulartB/proffy/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
-* Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
+# :closed_book: Licencia
 
-Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
-
-# :closed_book: License
-
-Released in 2020 :closed_book: License
+Lançado em 2020 :closed_book: Licencia
 
 Made with love by [Rafael Goulart](https://github.com/RafaelGoulartB) 🚀.
-This project is under the [MIT license](./LICENSE).
+Esse projeto esta sobre [MIT license](./LICENSE).
 
 
-Give a ⭐️ if this project helped you!
+Dê uma ⭐️ se esse projeto te ajudou!
